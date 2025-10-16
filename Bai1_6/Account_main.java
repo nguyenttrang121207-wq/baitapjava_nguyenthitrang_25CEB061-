@@ -1,5 +1,4 @@
 package Bai1_6;
-
 public class Account_main {
         public static void main(String[] args) {
             Account a1 = new Account("A101", "Tan Ah Teck", 88);
