@@ -1,7 +1,9 @@
+package Bai1_2;
+
 public class TESTM {
         public static void main(String[] args) {
             // Test Constructors and toString()
-            Circle c1 = new Circle (1.1);
+            Circle c1 = new Circle(1.1);
             System.out.println(c1);   // toString()
             Circle c2 = new Circle(1.1); // default constructor
             System.out.println(c2);
