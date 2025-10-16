@@ -1,3 +1,7 @@
+package Bai1_5;
+
+import Bai1_5.InvoiceItem;
+
 public class InvoiceItem_main {
     public static void main(String[] args) {
         InvoiceItem item1 = new InvoiceItem("A101", "Pen Red", 888, 0.08);

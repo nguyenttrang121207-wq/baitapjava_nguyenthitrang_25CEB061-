@@ -1,3 +1,5 @@
+package Bai1_5;
+
 public class InvoiceItem {
     private final String id;
     private final String desc;
@@ -31,6 +33,6 @@ public class InvoiceItem {
         return qty * unitPrice;
     }@Override
     public String toString() {
-        return "InvoiceItem[id=" + id + ",desc=" + desc + ",qty=" + qty + ",unitPrice=" + unitPrice + "]";
+        return "Bai1_5.InvoiceItem[id=" + id + ",desc=" + desc + ",qty=" + qty + ",unitPrice=" + unitPrice + "]";
     }
 }
