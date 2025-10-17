@@ -1,11 +1,8 @@
 package Bai1_3;
 
 public class Rectangle {
-    // Fields
     private float length;
     private float width;
-
-    // Constructors
     public Rectangle() {
         this.length = 1.0f;
         this.width = 1.0f;
@@ -20,8 +17,6 @@ public class Rectangle {
     public void setLength(float length) {
         this.length = length;
     }
-
-    // Getter and Setter for width
     public float getWidth() {
         return width;
     }
