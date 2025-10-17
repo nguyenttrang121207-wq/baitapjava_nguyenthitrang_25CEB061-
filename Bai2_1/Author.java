@@ -6,7 +6,6 @@ package Bai2_1;
 
         public Author() {
         }
-
         public Author(String name, String email, char gender) {
             this.name = name;
             this.email = email;
