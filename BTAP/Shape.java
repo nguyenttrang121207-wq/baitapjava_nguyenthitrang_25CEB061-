@@ -35,11 +35,14 @@ public abstract class Shape {
 
     // Phương thức trừu tượng
     public abstract double getArea();
-    public abstract double getPerimeter();
+
+    public double getPerimeter() {
+        return 0;
+    }
 
     @Override
     public String toString() {
         return "Shape[color=" + color + ", filled=" + filled + "]";
     }
 }
-}
+

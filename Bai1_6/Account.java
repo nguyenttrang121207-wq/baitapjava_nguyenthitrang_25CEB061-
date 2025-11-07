@@ -14,13 +14,14 @@ package Bai1_6;
             this.balance = balance;
         }
         public String getID() {
+
             return id;
         }
         public String getName() {
+
             return name;
         }
-        public int getBalance() {
-            return balance;
+        public int getBalance() {return balance;
         }
         public int credit(int amount) {
             balance += amount;

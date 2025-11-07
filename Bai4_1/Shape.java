@@ -1,5 +1,4 @@
-package Bai4_1;package Bai4_1;
-
+package Bai4_1;
 public abstract class Shape {
     private String color;
     private boolean filled;
